@@ -1,6 +1,9 @@
 # dokku-ffmpeg-install
+
 ffmpeg for dokku (one time install)
 
-git clone https://github.com/madmax/dokku-ffmpeg-install /var/lib/dokku/plugins/dokku-ffmpeg-install
-dokku plugins-install
+Forked to support ffmpeg v3
 
+```
+dokku plugin:install https://github.com/allenwei/dokku-ffmpeg-install
+```
